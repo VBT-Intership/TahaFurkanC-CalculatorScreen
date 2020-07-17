@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/calExpression"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:ellipsize="start"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/calResult"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:ellipsize="end"
+        android:gravity="end"
+        android:singleLine="true"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/calClear"
+                style="@style/ActionButtonStyle"
+                android:layout_width="16dp"
+                android:background="@drawable/circle_actiontextview"
+                android:text="CE" />
+            <TextView
+                android:id="@+id/calReset"
+                style="@style/ActionButtonStyle"
+                android:layout_width="16dp"
+                android:background="@drawable/circle_actiontextview"
+                android:text="C" />
+            <TextView
+                android:id="@+id/calPercent"
+                style="@style/ActionButtonStyle"
+                android:layout_width="16dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/circle_actiontextview"
+                android:text="%" />
+            <TextView
+                android:id="@+id/calDivide"
+                style="@style/ActionButtonStyle"
+                android:layout_width="16dp"
+                android:background="@drawable/circle_actiontextview"
+                android:text="/" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/calSeven"
+                style="@style/NumberButtonStyle"
+                android:background="@drawable/circle_numbertextview"
+                android:text="7" />
+
+            <TextView
+                android:id="@+id/calEight"
+                style="@style/NumberButtonStyle"
+                android:background="@drawable/circle_numbertextview"
+                android:text="8" />
+
+            <TextView
+                android:id="@+id/calNine"
+                style="@style/NumberButtonStyle"
+                android:background="@drawable/circle_numbertextview"
+                android:text="9" />
+
+            <TextView
+                android:id="@+id/calMul"
+                style="@style/ActionButtonStyle"
+                android:background="@drawable/circle_actiontextview"
+                android:text="*" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/calFour"
+                style="@style/NumberButtonStyle"
+                android:background="@drawable/circle_numbertextview"
+
+                android:text="4" />
+
+            <TextView
+                android:id="@+id/calFive"
+                style="@style/NumberButtonStyle"
+                android:background="@drawable/circle_numbertextview"
+
+                android:text="5" />
+
+            <TextView
+                android:id="@+id/calSix"
+                style="@style/NumberButtonStyle"
+                android:background="@drawable/circle_numbertextview"
+
+                android:text="6" />
+
+            <TextView
+                android:id="@+id/calMinus"
+                style="@style/ActionButtonStyle"
+
+                android:background="@drawable/circle_actiontextview"
+                android:text="-" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+
+            <TextView
+                android:id="@+id/calOne"
+                style="@style/NumberButtonStyle"
+
+                android:background="@drawable/circle_numbertextview"
+                android:text="1" />
+
+            <TextView
+                android:id="@+id/calTwo"
+                style="@style/NumberButtonStyle"
+
+                android:background="@drawable/circle_numbertextview"
+                android:text="2" />
+
+            <TextView
+                android:id="@+id/calThree"
+                style="@style/NumberButtonStyle"
+
+                android:background="@drawable/circle_numbertextview"
+                android:text="3" />
+
+            <TextView
+                android:id="@+id/calSum"
+                style="@style/ActionButtonStyle"
+
+                android:background="@drawable/circle_actiontextview"
+                android:text="+" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/calDot"
+                style="@style/NumberButtonStyle"
+
+                android:background="@drawable/circle_numbertextview"
+                android:text="." />
+
+            <TextView
+                android:id="@+id/calZero"
+                style="@style/NumberButtonStyle"
+
+                android:background="@drawable/circle_numbertextview"
+                android:text="0" />
+
+            <TextView
+                android:id="@+id/calBack"
+                style="@style/NumberButtonStyle"
+
+                android:background="@drawable/circle_numbertextview"
+                android:scaleType="center"
+                android:text="DEL" />
+
+            <TextView
+                android:id="@+id/calEquals"
+                style="@style/ActionButtonStyle"
+
+                android:background="@drawable/circle_actiontextview"
+                android:text="=" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
